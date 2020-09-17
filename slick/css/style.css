@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (min-width: 768px) {
+    
+ .slider {
+    width: 500px;
+    float:left;
+    
+}
+
+   #slidephoto {
+    width: 100%;
+    
+}  
+  
+#sridephoto a {
+    width:500px;
+    display: block;
+    
+}
+
+#slidephoto img {
+    width: 100%;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

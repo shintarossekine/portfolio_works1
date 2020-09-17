@@ -1,0 +1,253 @@
+@charset "utf-8";
+@media screen and (min-width: 768px) {
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+body {
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+}
+
+
+
+img {
+    border: none;
+    display: block;
+}
+
+
+header {
+    width: 100%;
+}
+
+
+
+/*hg*/
+.menu {
+    width: 71px;
+    height: 33px;
+    position: fixed;
+    z-index: 99;
+    top: 30px;
+    right: 127px;
+    
+}
+
+
+.menu__line {
+    background-color: #FFFFFF;
+    height: 2px;
+    display: block;
+    position: absolute;
+    transition:transform .3s;
+    width: 100%;
+}
+
+.menu__line--center {
+    top: 15px;
+}
+
+.menu__line--bottom {
+    bottom: 0;
+}
+
+.menu__line--top.active {
+    top: 9px;
+    transform: rotate(45deg);
+}
+.menu__line--center.active {
+    transform:scaleX(0);
+}
+.menu__line--bottom.active {
+    transform: rotate(135deg);
+    bottom: 22px;
+}
+
+/*gnavi*/
+
+
+#gnavi {
+    background: #2b76bc;
+    display: none;
+    width: 29%;
+    height: 84%;
+    position: fixed;
+    z-index: 98;
+    opacity: 0.8;
+    right: 0;
+}
+
+.gnavInner {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.gnavi__menu--item {
+    margin: 45px 0;
+}
+
+
+.gnavi__menu--item a {
+    color: #FFFFFF;
+    font-size: 2.5em;
+    text-decoration: none;
+    padding: 30px;
+    transition: .5s;
+}
+
+.gnavi__menu--item a:hover {
+    color: #666;
+}
+
+
+.gnav__menu {
+    
+}
+
+#mainphoto {
+    background-image: url("file:///E:/prfweb1.3/works1/common/images/suisai2.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    overflow: hidden;
+    clear: both;
+}
+
+#mainphoto h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 72px;
+    padding-top: 176px;
+    font-family: HGS明朝B;
+}
+
+#maincontents {
+    width: 100%;
+    display: block;
+    margin-top: 100px;
+    
+}
+
+#mcInner {
+    margin-right: auto;
+    margin-left: auto;
+    width: 940px;
+}
+
+
+#maincontents {
+     margin-right: auto;
+    margin-left: auto;
+    width: 940px;
+}
+
+.slider {
+    width: 500px;
+    float:left;
+    height: auto;
+}
+
+    #slidephoto {
+        
+        
+    }
+    
+    
+    
+
+
+#textright {
+    font-size: 14px;
+    padding-left: 68px;
+    overflow: hidden;
+    
+}
+
+#textright span {
+    font-weight: bold;
+}
+
+
+
+    #textright p a {
+        font-size: 14px;
+        color: #222;
+        float: right;
+        text-decoration: none;
+        padding-top: 5px;
+    }
+
+    #textright p a:hover {
+        color: #0f49ef;
+    }
+    
+    
+
+    #pagelink1 {
+    text-decoration: none;
+    width: 85%;    
+    text-align: center;
+    display: block;
+    
+    
+   
+    
+       
+    
+    }
+    
+    #pagelink1::after {
+     border-bottom: solid 1px #222;
+     bottom: 0;
+     content: "";
+     display: block;
+     transition: all .3s ease;
+     -webkit-transition: all .3s ease;
+     width: 0;
+    }
+    
+    
+    
+    
+    
+    
+    #pagelink1:hover::after {
+        width: 100%;
+        
+    }
+
+footer {
+    clear: both;
+    width: 100%;
+    display: block;
+    margin-top: 100px;
+    background-color: #4c97e5;
+    height: 100px;
+}
+
+#footerInner {
+    width: 401px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+#footerInner p {
+   text-align: center;
+   padding-top: 48px;
+   color: #fff; 
+    
+}
+}
