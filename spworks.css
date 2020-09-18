@@ -324,14 +324,18 @@ right: 15px;
         padding-top: 5px;
     }
 
-    #textright p a:hover {
-        color: #0f49ef;
-    }
     
     
 
     #pagelink1 {
-    text-decoration: none;
+        text-decoration: none; 
+        display: block;
+        line-height: 14px;
+        color: #3c3c3c;
+    
+    
+    
+    }
     
     #pagelink1:hover {
          color: #0f49ef;
@@ -339,14 +343,12 @@ right: 15px;
         }
         
     
-    display: block;
-    line-height: 14px;
-    color: #3c3c3c;
+    
    
     
        
     
-    }
+ 
     
 
     
