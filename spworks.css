@@ -332,7 +332,12 @@ right: 15px;
 
     #pagelink1 {
     text-decoration: none;
-      
+    
+    #pagelink1:hover {
+         color: #0f49ef;
+        
+        }
+        
     
     display: block;
     line-height: 14px;
