@@ -425,7 +425,9 @@ footer {
         font-weight: bold;
     }    
     
-    
+     .br_sp {
+        display: none;
+    }
     
     
 }
