@@ -407,7 +407,9 @@ footer {
     }    
     
     
-    
+   .br_sp {
+        display: block;
+    }  
     
 }
     
